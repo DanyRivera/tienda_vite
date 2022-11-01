@@ -41,3 +41,19 @@
         font-size: 2.2rem;
     }
 }
+
+
+@media (min-width: 768px) {
+    .hora {
+        transform: translateY(-100%);
+        transition: all ease .3s;
+        visibility: hidden;
+        opacity: 0;
+    }
+    
+    .dia:hover .hora {
+        transform: translateY(0%);
+        visibility: visible;
+        opacity: 1;
+    }
+}
