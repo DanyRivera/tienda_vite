@@ -1,7 +1,7 @@
 
 const Productos = () => {
   return (
-    <main className="my-10">
+    <main className="my-10" id="productos">
       <h3 className="heading">Productos</h3>
       <div className="mx-2 mt-10 md:mx-24 grid gap-14 md:grid-cols-3 md:gap-32">
         {[1, 2, 3].map(card => (

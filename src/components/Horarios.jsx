@@ -1,7 +1,7 @@
 
 const Horarios = () => {
   return (
-    <section className="md:mx-24 mt-28 mb-20">
+    <section className="md:mx-24 mt-28 mb-20" id="horarios">
       <h3 className="heading">Horarios</h3>
       <div className="font-raleway font-medium mt-16 mx-5">
         <div className="grid gap-10 md:grid-cols-4">

@@ -3,7 +3,7 @@ import { faInstagram, faFacebookF, faWhatsapp, faYoutube } from "@fortawesome/fr
 
 const Contacto = () => {
   return (
-    <section className="md:mx-36 my-24">
+    <section className="md:mx-36 my-24" id="contacto">
       <h3 className="heading">Contacto</h3>
       <nav className="mt-10 flex flex-col items-center gap-10 md:flex-row justify-around md:my-18">
         <a>
