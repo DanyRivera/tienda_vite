@@ -4,6 +4,7 @@ import Contacto from "./components/Contacto"
 import Ubicacion from "./components/Ubicacion"
 import Horarios from "./components/Horarios"
 import Footer from "./components/Footer"
+import Gallery from "./components/Gallery"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Productos />
       <Contacto />
+      <Gallery />
       <Ubicacion />
       <Horarios />
       <Footer />
